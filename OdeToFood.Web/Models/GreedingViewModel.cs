@@ -8,5 +8,6 @@ namespace OdeToFood.Web.Models
     public class GreedingViewModel
     {
         public string MessageToDisplay { get; set; }
+        public string Name { get; set; }
     }
 }
