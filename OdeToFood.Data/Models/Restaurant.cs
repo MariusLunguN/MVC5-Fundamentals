@@ -1,11 +1,9 @@
-﻿using System;
-
-namespace OdeToFood.Data.Models
+﻿namespace OdeToFood.Data.Models
 {
     public class Restaurant
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public CuisineType Cuising { get; set; }
+        public CuisineType Cuisine { get; set; }
     }
 }
