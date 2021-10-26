@@ -7,6 +7,7 @@ namespace OdeToFood.Data.Models
         public int ID { get; set; }
         
         [Required]
+        [MaxLength(255)]
         public string Name { get; set; }
         
         [Display(Name="Type of food")]
